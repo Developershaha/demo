@@ -1,3 +1,5 @@
+
+
 1) git init - create a new or power or folder to be manage by git and initialise a new empty repository and it also create .git folder that has 
 all the relevant logic to manage version of your project 
 
@@ -91,5 +93,7 @@ we can restore it or you can say restore last clean version of the file.
 - git push 
 
 -- git sixth changes
+
+23) merge conflict are very commom scenario 
 
 -- merger conflict occures if multiple people try to the same file , and then collabrate 
