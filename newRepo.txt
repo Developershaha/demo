@@ -64,11 +64,15 @@ we can restore it or you can say restore last clean version of the file.
 
    17)  `git remote add <name of the remote > < link of the remote > ` : this command help us to add a new link to the remote == respositieries 
 
-   19) `git remote rm <name of the remote >` ==> this command deletes the remote connections
+   18) `git remote rm <name of the remote >` ==> this command deletes the remote connections
 
-   20) ` git remote rename <oldname > <new name >`  => this command renames the remote connection 
+   19) ` git remote rename <oldname > <new name >`  => this command renames the remote connection 
 
 
    Note : the name of the remote connection is always used to establish commiunication 
+
+   20) `git add <file1> <file2> <file3>`  ===> this command add multiple files changes togather in the stagging area 
+
+   21) `git add .`  ==> this command will add all files from working repo to stagging area 
 
    
