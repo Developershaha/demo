@@ -88,3 +88,6 @@ we can restore it or you can say restore last clean version of the file.
 - git commit -m "df"
 - git pull --- take remote code first and after that push the code to the remote 
 - git push .
+- git push 
+
+-- git sixth changes
