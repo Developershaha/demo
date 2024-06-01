@@ -91,3 +91,5 @@ we can restore it or you can say restore last clean version of the file.
 - git push 
 
 -- git sixth changes
+
+-- merger conflict occures if multiple people try to the same file , and then collabrate 
