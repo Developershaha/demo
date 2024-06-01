@@ -78,4 +78,13 @@ we can restore it or you can say restore last clean version of the file.
    22) `git pull <remote name >< breanch name >` : download latest changes from the branch of the mentioned remote
    in you local repo 
 
-   
+
+
+   ### Recommended practice in the industry 
+
+-- make changes 
+
+- git add .<file name >
+- git commit -m "df"
+- git pull --- take remote code first and after that push the code to the remote 
+- git push 
