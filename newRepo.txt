@@ -1,0 +1,74 @@
+1) git init - create a new or power or folder to be manage by git and initialise a new empty repository and it also create .git folder that has 
+all the relevant logic to manage version of your project 
+
+
+if you want to delete ..git folder which is manage by git and you want to remove the power of git 
+
+if you are using the linux machine you simply excute the command rm -rf .git command
+
+
+
+
+git status -- command exute 
+
+u see lots of message or data after excuting the command 
+2) `working area ` --> this can be bunch of files that are not currentaly handled by git .
+It means that chnages done or to be done in those files are not managed by git yet .
+A file whicj is working area is considered to be not in the stagging area . when we do `git status` 
+and we see a bunch ig `untracked files ` then these are actually called to be in the working area .
+
+
+3) `Stagging area ` ==> what all files are going to be the part of the next version that we will create .
+this stagging area is the place where git knows what chnages will be done from the last version to the next version .
+
+4) `Repository Area `==> This area actually contains the details of all you previous resistered verion .
+and the files in this area , git already manages them a d knows their version history .
+
+
+5)   `git add <file name> ` ===> moves file from working area to stagging area 
+
+6)  `git rm --cached <file name >` ==> moves files from back stagging area to the working area
+
+7) `commit `==> commit is the perticular version of the project . it captured a snapshoot of the project's stagged 
+changes and create a version out of it.
+
+8) `git commit ` ==> resister stagging changes to a commit
+
+9) `git log `==> list down all the posibe commit / respository
+
+if we want to exit out of git log === spress\
+
+
+
+10) `git restore <file name >` ==> it removes all file chnages from stagging area to be commited . this c
+can be useful , if we did some dirty peace of the code and now no more wanted . Instead of deleting every change line by line ,
+we can restore it or you can say restore last clean version of the file.
+ 
+
+   11) `git restore --staged <file name > ` ==> it remove file from the stagging area to working area 
+
+
+   this is only worksif changes area in you stagging area 
+
+   12 ) diff between git rm and git restore 
+   ans: if you want to move the whole file back to the untracked state, then we do git rm , otherwise if we just want the changes move working area staged area 
+
+   13) ` git diff from commit1 to commit2 ` ==> gives the difference of all the files changes between two commmits
+
+   14) `git commit -m "your commit messages " ` ==> if we want to avoid opening a text editor like vim/nano to add commit messsage 
+   we can use this following command 
+
+   15) ` git remote `   ==> list down  all the remote connnection names 
+
+   16) Remote connections ==> it helps you to link two git repositiores for uploading chnages from each otherwise 
+
+   17)  `git remote add <name of the remote > < link of the remote > ` : this command help us to add a new link to the remote == respositieries 
+
+   19) `git remote rm <name of the remote >` ==> this command deletes the remote connections
+
+   20) ` git remote rename <oldname > <new name >`  => this command renames the remote connection 
+
+
+   Note : the name of the remote connection is always used to establish commiunication 
+
+   
