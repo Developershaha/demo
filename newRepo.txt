@@ -75,4 +75,7 @@ we can restore it or you can say restore last clean version of the file.
 
    21) `git add .`  ==> this command will add all files from working repo to stagging area .
 
+   22) `git pull <remote name >< breanch name >` : download latest changes from the branch of the mentioned remote
+   in you local repo 
+
    
